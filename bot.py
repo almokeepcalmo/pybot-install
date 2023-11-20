@@ -2,7 +2,7 @@
 import discord
 import os
 
-os.environ["discord_token"]
+os.environ["discord_token_var"]
 
 client = discord.Client(intents=discord.Intents.all())
 
@@ -27,4 +27,4 @@ async def on_message(message):
     await message.channel.send(embed=embed)
 
 
-client.run(os.environ["discord_token"])
+client.run(os.environ["discord_token_var"])
