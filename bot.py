@@ -1,3 +1,4 @@
+# I'm not the author of this bot! Source: https://github.com/kylianxdev/discord-coolpersondetected/
 import discord
 import os
 
