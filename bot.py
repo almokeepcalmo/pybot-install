@@ -9,7 +9,7 @@ client = discord.Client(intents=discord.Intents.all())
 
 @client.event
 async def on_message(message):
-  if message.author.id == 145102755134963712:
+  if message.author.id == enter discord ID here:
     # Create an embed message
     embed = discord.Embed(title='Hot person detected', color=0xFF0000)
     # Set the thumbnail of the embed message to the person's profile picture
@@ -17,7 +17,7 @@ async def on_message(message):
     embed.set_footer(text='This message is spicy! 🔥')
     # Send the embed message
     await message.channel.send(embed=embed)
-  elif message.author.id == 814857851406647309:
+  elif message.author.id == enter discord ID here:
     # Create an embed message
     embed = discord.Embed(title='VtM Bot detected', color=0x00FF00)
     # Set the thumbnail of the embed message to the person's profile picture
